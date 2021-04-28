@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div>
+        <form
+          class="pangram_form"
+          onsubmit="event.preventDefault(); pangramMainFunc()"
+        >
+          <label for="Pangram">Pangram Tester: </label>
+          <input
+            type="text"
+            id="pangram"
+            name="pangram"
+            value="fox jumps"
+            required
+          /><br />
+          <input class="button" type="submit" value="Submit" />
+        </form>
+        <p id="outputLabel"></p>
+        <p id="output"></p>
+      </div>
+    </div>
+  </body>
+</html>

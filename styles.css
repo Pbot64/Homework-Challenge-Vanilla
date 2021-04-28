@@ -1,0 +1,39 @@
+:root {
+  --blue: #4fa3eb;
+  --green: #00bf6f;
+  --lightBlue: #e8f5ff;
+  --lighterBlue: #4fa3eb14;
+  --lightGreen: #00bf6f14;
+  --pink: #ee5087;
+  --purple: #7336df;
+  --red: #ff0000;
+}
+
+.pangram_form {
+  margin: 10px 50px;
+}
+
+.button {
+  background-color: var(--blue);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0);
+  margin: 40px;
+  padding: 10px;
+}
+
+.output {
+  color: #00bf6f;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
